@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Huseyin Amac - Portfolio</title>
+    <style>
+        /* General Aesthetics for Portfolio Items */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            line-height: 1.8; /* Better line spacing */
+        }
+
+        .portfolio-item {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 30px;
+            /* border-left: 5px solid #ccc; */
+            border-radius: 8px;
+        }
+
+        .portfolio-item h3 {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Adjusted image styling to be a bit smaller than the text width */
+        .portfolio-item img {
+            max-width: 85%; /* Image will be 85% of the container width */
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; /* Centers the image */
+        }
+
+        .portfolio-item p {
+            color: #555;
+            margin-bottom: 15px;
+            max-width: 100%; /* Ensures text takes the full width */
+        }
+
+        /* Styling for simple tags (without hashtags) */
+        .tags {
+            margin-top: 10px;
+        }
+
+        .tags span {
+            background-color: #f1f1f1;
+            color: #555;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Wrapped Inside Container -->
+    <div class="container">
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item">
+                <h3>Modeling Single Event Effects in SkyWater 90nm Technology</h3>
+                <p>Analyzed the impact of radiation on semiconductors by modeling Single Event Effects (SEE) in SkyWater 90nm technology as part of a collaborative research project.</p>
+                <p><strong>My Role & Skills Applied:</strong></p>
+                <p>∙ Simulations & Component Modeling: Developed and simulated custom components to study radiation∙induced effects.</p>
+                <p>∙ Data Analysis: Interpreted results from a 25∙hour experiment conducted at the Lawrence Berkeley National Laboratory.</p>
+                <p>∙ Technical Expertise: Enhanced understanding of semiconductor physics, microelectronics, and radiation effects.</p>
+                <p><strong>Final Outcome:</strong></p>
+                <p>The research contributed to advancing knowledge in radiation-hardened microelectronics, providing critical insights into the behavior of semiconductors under extreme conditions.</p>
+                <!-- Image for project description -->
+                <img src="assets/images/p1.png" alt="SEE SkyWater Project Image">
+                <!-- Project tags (without hashtags) -->
+                <div class="tags">
+                    <span>Simulations</span>
+                    <span>Semiconductors</span>
+                    <span>Research</span>
+                    <span>Microelectronics</span>
+
+                    <span>Radiation Effects</span>
+
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item">
+                <h3>CosmicQuest: Mission Motion</h3>
+                <p>A board game for elementary school students to help them understand Newton's 3 Laws of Motion in a fun and interactive way.</p>
+                <img src="assets/images/e101.jpg" alt="CosmicQuest Prototype Image">
+
+                <p><strong>My Role & Skills Applied:</strong></p>
+                <p>∙ 3D Modeling & Printing: Designed game components using Fusion 360 and 3D printed with MK3+.</p>
+                <p>∙ Programming: Coded interactive game elements using Python and Raspberry Pi Sense Hat.</p>
+
+               
+                <p>∙ Design: Created game visuals using Adobe programs and laser cut components with TruTec Speedy300.</p>
+                <img src="assets/images/p2v2.png" alt="CosmicQuest Project Image">
+
+                <p>∙ Collaboration & Client Communication: Worked with an actual elementary school teacher to tailor the game for educational use, developing strong teamwork and communication skills.</p>
+                <p>∙ Prototyping & Presentation: Produced 3 prototypes, iterating based on feedback, and presented the final game to the top 20 teachers in Indiana.</p>
+                <p><strong>Final Outcome:</strong></p>
+                <p>The game integrates one of the UN Sustainability Goals and was well-received in its presentation to educators.</p>
+                <!-- Image for project description -->
+                <img src="assets/images/p2v3.png" alt="CosmicQuest Prototype Image">
+                <!-- Project tags (without hashtags) -->
+                <div class="tags">
+                    <span>3D Design</span>
+                    <span>Game Development</span>
+                    <span>Education</span>
+                </div>
+            </div>
+
+            <!-- More Portfolio Items can be added similarly -->
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Huseyin Amac. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

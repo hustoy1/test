@@ -1,0 +1,550 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding-top: 70px; /* Accounts for fixed navbar */
+    line-height: 1.6;
+}
+
+/* Container to Control Content Width */
+.container {
+    max-width: 800px; /* Narrower content width for easier readability */
+    margin: 0 auto; /* Center the content */
+    padding: 0 20px; /* Add padding on smaller screens */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section with Cover Image */
+.hero {
+    background-image: url('assets/images/coverpicture2.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height for a narrow top and bottom */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.hero-content {
+    padding-top: 60px; /* Add more padding to lower the content */
+    text-align: center;
+    
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero h2.major {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Space between the major and email/socials */
+}
+
+.socials {
+    margin-top: 30px; /* Add margin to lower the social links */
+}
+
+.contact-section {
+    margin-top: 20px; /* More space between the major and the email */
+    font-size: 1.2em;
+    
+}
+
+
+.email-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Ensure it inherits the surrounding text color */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
+
+.btn-cta {
+    margin-top: 30px;
+    padding: 10px 25px;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: #0056b3;
+}
+
+/* Ethics Statement Section */
+#ethics {
+    padding: 50px 20px;
+    background-color: #f2f2f2; /* Light background to differentiate this section */
+    text-align: center;
+    margin-top: 30px;
+}
+
+#ethics h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#ethics p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Highlights Section */
+#highlights {
+    padding: 50px 20px;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
+.highlights-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.highlight-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+
+.highlight-item h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.highlight-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*inedex.hmtlll*/
+
+
+
+
+
+/* Social Media Icons */
+.socials {
+    margin-top: 20px; /* Space above the icons */
+    margin-bottom: 30px; /* Increase space below the icons */
+}
+
+.socials img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-read-more {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    text-decoration: none; /* Remove underline */
+    display: inline-block;  /* Ensures it's styled like a button */
+}
+
+.btn-read-more:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Section Styling (General for all sections) */
+section {
+    padding: 40px 0; /* Less padding for a more compact feel */
+}
+
+section h2 {
+    font-size: 1.8em; /* Reduced title size for narrow content */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 600px; /* Narrower text width for better readability */
+    margin: 0 auto;
+}
+
+/* Portfolio Page */
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item h3 {
+    font-size: 1.5em; /* Reduced project title size */
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.portfolio-item p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Blog Section */
+
+
+
+
+
+
+
+
+/* Main Blog Post Container */
+.blog-post {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+/* Post Header */
+/* Blog Section Styling */
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.blog-text-container.reverse {
+    flex-direction: row-reverse;
+}
+
+.blog-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.blog-text-container.reverse .blog-text {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.blog-image {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.blog-content:hover {
+    background-color: #f9f9f9;
+}
+
+/* Tags Styling */
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tags span {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+/* Resume Page */
+#resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills Page */
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h3 {
+    font-size: 1.3em; /* Reduced skill title size */
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc; /* Add a line between each experience */
+}
+
+.experience-item h3 {
+    font-size: 1.5em; /* Adjust the job title size */
+    margin-bottom: 5px;
+}
+
+.experience-item p {
+    font-size: 1.1em; /* Adjust the text size */
+    color: #555;
+}
+
+
+/* Centering the Section */
+#career-plan-preview {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styles for "Read More" Link */
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
